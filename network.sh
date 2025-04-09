@@ -1,1 +1,0 @@
-export PROVIDER="https://mainnet.infura.io/v3/327817aba52042f3bb582bca89548352"
