@@ -7,7 +7,7 @@ import "../src/UBToken.sol";
 contract UBTokenDeploy is Script {
     function run() external {
         uint256 deployerPrivateKey = vm.envUint("PRIVATE_KEY");
-        
+
         vm.startBroadcast(deployerPrivateKey);
 
         string memory tokenName = "Universitity or Bridgeport Token";
